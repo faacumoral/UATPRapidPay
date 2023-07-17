@@ -1,4 +1,4 @@
-# UAT.PRapidPay Code challenge
+# UATP RapidPay Code challenge
 
 Requirements:
 
