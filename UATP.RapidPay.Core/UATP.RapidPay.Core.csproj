@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UATP.RapidPay.DAL\UATP.RapidPay.DAL.csproj" />
+    <ProjectReference Include="..\UATP.RapidPay.Interfaces\UATP.RapidPay.Interfaces.csproj" />
+    <ProjectReference Include="..\UATP.RapidPay.Shared\UATP.RapidPay.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

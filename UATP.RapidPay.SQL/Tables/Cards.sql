@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Cards]
+(
+	[CardID] INT NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[CardNumber] NVARCHAR(15) NOT NULL,
+	[UserID] INT NOT NULL, 
+    CONSTRAINT [FK_Cards_UserID] FOREIGN KEY ([UserID]) REFERENCES [Users]([UserID])
+)
